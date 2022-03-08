@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.inicial-page{
+  background-image: url(../public/assets/background-page.jpg);
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+.board-white{
+  width:200px;
+  height:200px;
+  background-color: #fff;
+  grid-column: 3 / 6;
+  box-shadow: 15px 13px 0px 4px rgba(251,168,253,1);
+  -webkit-box-shadow: 15px 13px 0px 4px rgba(251,168,253,1);
+  -moz-box-shadow: 15px 13px 0px 4px rgba(251,168,253,1);
+
+
+}
+
+.grid{
+  display:grid;
+}
+
+.css-vamk89-MuiFormControl-root{
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica;
+  font-weight: 600;
+}
+
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon{
+  color: #ACF891 !important;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+  color: #ACF891 !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: #ACF891 !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  border: 1px solid #ACF891 !important;
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica;
+}
+
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+  left: 9px !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
