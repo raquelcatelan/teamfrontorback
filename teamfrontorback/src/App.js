@@ -1,16 +1,18 @@
+import React from 'react'
+import {BrowserRouter} from 'react-router-dom'
 import './App.scss';
-import WhiteBoard from './componentes/WhiteBoard'
-import Gender from './componentes/Gender'
-import BirthDate from './componentes/BirthDate'
+import Rotas from './Rotas.js'
 
 function App() {
   return (
+    <BrowserRouter>
+    <div>
+      <Rotas />
 
-    <div className="inicial-page">
-      <WhiteBoard />
-      <Gender />
-      <BirthDate />
     </div>
+
+    </BrowserRouter>
+
   );
 }
 

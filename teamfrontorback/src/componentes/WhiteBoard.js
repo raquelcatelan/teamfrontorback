@@ -1,14 +1,19 @@
 import React from 'react'
+import '../App.scss';
+import './style.scss';
 
 
-export default function WhiteBoard(){
+
+const WhiteBoard = ( {children} ) => {
     return(
-        <section className="grid">
-           
-            <div className="board-white" >
+        <section >
 
+            <div className="board-white" >
+                <p className="goals"> {children} </p>
             </div>
 
         </section>
     )
 }
+
+export default WhiteBoard

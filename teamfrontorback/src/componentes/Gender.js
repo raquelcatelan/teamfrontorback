@@ -4,6 +4,8 @@ import OutlinedInput from '@mui/material/OutlinedInput';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import '../App.scss';
+import './style.scss';
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -30,7 +32,7 @@ function getStyles(gender, personGender, theme) {
   };
 }
 
-export default function Gender() {
+const Gender = ( )  =>{
   const theme = useTheme();
   const [personGender, setPersonGender] = React.useState([]);
 
@@ -39,7 +41,6 @@ export default function Gender() {
       target: { value },
     } = event;
     setPersonGender(
-      // On autofill we get a stringified value.
       typeof value === 'string' ? value.split(',') : value,
     );
   };
@@ -81,4 +82,5 @@ export default function Gender() {
   );
 }
 
+export default Gender
 
